@@ -1,0 +1,24 @@
+name: flutter_todo_2
+description: A newer and better ToDo APP.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^5.0.0
+  http: ^0.12.0
+  equatable: ^1.0.0
+  cloud_firestore: ^0.14.0+2
+  firebase_auth: ^0.18.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^4.0.0
+
+flutter:
+  uses-material-design: true
